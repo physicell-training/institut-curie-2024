@@ -47,7 +47,7 @@ Download the source code (.zip or .tar.gz) to your home directory, and uncompres
 
 If you are in a shell or terminal, change to your home directory, and then use: 
 
-```$ unzip PhysiCell-Studio-2.40.0.zip```
+```unzip PhysiCell-Studio-2.40.0.zip```
 
 (Replace `PhysiCell-Studio-2.40.0.zip` with the name of the file you downloaded.) 
 
