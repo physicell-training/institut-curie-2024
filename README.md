@@ -10,7 +10,7 @@ This is a miniature, 2-hour tutorial series on building your first tumor-immune 
 
 1. [Minimal Setup for PhysiCell Studio](https://github.com/physicell-training/institut-curie-2024/blob/main/PhysiCell-Studio-Setup.md)
 2. [Tutorial 1: Moving around in PhyisCell Studio, and making a zombie-villager model](https://github.com/physicell-training/institut-curie-2024/blob/main/files/PhysiCell%20Mini%20Session%201%20-%202024%20(v2).pdf)
-3. [Tutorial 2: Creating a cancer-immune model](https://github.com/physicell-training/institut-curie-2024/blob/main/files/PhysiCell%20Mini%20Session%202%20-%202024%20(v2).pdf)
+3. [Tutorial 2: Creating a cancer-immune model](https://github.com/physicell-training/institut-curie-2024/blob/main/files/PhysiCell%20Mini%20Session%202%20-%202021%20(v2).pdf)
 
 ## Papers
 ### Key Papers
