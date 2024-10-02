@@ -17,9 +17,9 @@ Follow these steps or see the Anaconda option below.
 
 * open a Command Line or Powershell terminal and type:
 
-```python```
+```python --version```
 
-If it comes back with "Python 3.xx.xx" then you should be good. You can type `quit()` at the Python prompt (">>>") to exit the interpreter.
+If it comes back with "Python 3.xx.xx" then you should be good.
  
 * Otherwise, if it says `command not found`, then download and install Python 3.11 from the [Microsoft Store](https://apps.microsoft.com/search?query=python&hl=en-us&gl=US).
 
@@ -28,9 +28,9 @@ Follow these steps or see the Anaconda option (next).
 
 * open a Terminal shell and type
 
-```python```
+```python --version```
 
-If it comes back with "Python 3.xx.xx" then you should be good. You can type `quit()` at the Python prompt (">>>") to exit the interpreter.
+If it comes back with "Python 3.xx.xx" then you should be good.
 
 * Otherwise, if it says `command not found`, then download and install the latest "macOS 64-bit universal2 installer" from [www.python.org/downloads/macos/](https://www.python.org/downloads/macos/).
 
