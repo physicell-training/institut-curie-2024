@@ -3,11 +3,14 @@
 
 These are lecture and supplementary materials for the PhysiCell talk during the [Computational Systems Biology of Cancer International Course 7th edition - Spatial multimodal data analysis: when omics meet images](https://training.institut-curie.org/courses/sysbiocancer2024). 
 
+These pages will be updated by 
+
 ## Lecture Slides
 
 ## Computational Code 
 
 ## Extra Tutorials 
+1. Minimal Installation 
 
 ## Other Resources 
 
