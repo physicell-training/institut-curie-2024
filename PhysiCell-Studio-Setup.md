@@ -67,7 +67,7 @@ Then, install required 3rd party Python modules for the Studio:
 
 Then, run a script to download the executable `project` (the PhysiCell "template" sample project) for your operating system:
 
-```python downlaod_binary.py```
+```python download_binary.py```
 
 ## Step 4) Open and Test PhysiCell Studio: 
 If successful, you should be able to open the studio via; 
