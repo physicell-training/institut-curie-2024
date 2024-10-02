@@ -38,7 +38,7 @@ If it comes back with "Python 3.xx.xx" then you should be good. You can type `qu
 
 * [https://www.anaconda.com/download](https://www.anaconda.com/download)
 
-Note there's a "Skip registration" option) - this option will figure out what operating system you are running and download the appropriate Python package. It will be somewhat large, but will contain most of the dependencies for the Studio.
+Note there's a "Skip registration" option) - this option will figure out what operating system you are running and download the appropriate Python package. Note that the full Anaconda installation is somewhat large, but the Miniconda alternative should work similarly. 
 
 ---
 ## Step 2) Download and Unzip PhysiCell Studio 
@@ -65,9 +65,16 @@ Then, install required 3rd party Python modules for the Studio:
 
 ```pip3 install -r requirements.txt```
 
+Alternatively, you can use Anaconda for installing the required dependencies: 
+
+```
+conda env create -f environment.yml
+conda activate studio
+```
+
 Then, run a script to download the executable `project` (the PhysiCell "template" sample project) for your operating system:
 
-```python downlaod_binary.py```
+```python download_binary.py```
 
 ## Step 4) Open and Test PhysiCell Studio: 
 If successful, you should be able to open the studio via; 
@@ -89,10 +96,6 @@ If you are on Linux and the Studio does not display, you can try to run:
 
 ```sudo apt-get install libxcb-xinerama0```   # (assuming you have `sudo` privilege)
 
-or possibly:
-```
-conda env create -f environment.yml
-conda activate studio
-```
+or use the Anaconda dependency installation mentioned in Step3. 
 
 
