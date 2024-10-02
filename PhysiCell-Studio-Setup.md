@@ -27,7 +27,7 @@ Follow these steps or see the Anaconda option (next).
 
 * open a Terminal shell and type
 
-```python```
+```python --version```
 
 If it comes back with "Python 3.xx.xx" then you should be good. You can type `quit()` at the Python prompt (">>>") to exit the interpreter.
 
