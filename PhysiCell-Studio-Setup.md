@@ -2,7 +2,12 @@
 Last Updated Oct 2, 2024. 
 
 This guide will help you set up PhysiCell Studio  with a pre-compiled  executable model (`project`) for their computer (currently just Windows or Mac). 
-It will let you create rules-based simulation models without additional complex setup (e.g., C++ compilers). You need Python 3 installed on your computer (which will include the `pip3` command used below). Verify that you do and if not, install it:
+It will let you create rules-based simulation models without additional complex setup (e.g., C++ compilers). You need Python 3 installed on your computer (which will include the `pip3` command used below). Verify that you do and if not, install it. 
+
+If you have difficulty with this setup, you can use the web-based version of PhysiCell Studio, at: 
+
+[https://nanohub.com](https://nanohub.org/tools/pcstudio)
+
 
 ## Step 1) Install Python (if you don't have it)
 
@@ -29,4 +34,43 @@ Otherwise, if it says "command not found", then download and install the latest 
 * https://www.anaconda.com/download (note there's a "Skip registration" option) - this option will figure out what operating system you are running and download the appropriate Python package. It will be somewhat large, but will contain most of the dependencies for the Studio.
 
 ---
-## Step 2) 
+## Step 2) Download and Unzip PhysiCell Studio 
+Visit the PhysiCell Studio repository and download the latest release. 
+
+[https://github.com/PhysiCell-Tools/PhysiCell-Studio/releases](https://github.com/PhysiCell-Tools/PhysiCell-Studio/releases)
+
+Download the source code (.zip or .tar.gz) to your home directory, and uncompress it. 
+
+If you are in a shell or terminal, change to your home directory, and then use: 
+
+```$ unzip PhysiCell-Studio-2.40.0.zip```
+
+(Replace `PhysiCell-Studio-2.40.0.zip` with the name of the file you downloaded.) 
+
+## Step 3) Move into a Terminal Window and Start Setup 
+If you haven't done so already, open a terminal in your home directory. 
+
+Then, change into the unzipped PhysiCell Studio directory (replace `PhysiCell-Studio-2.40.0` as appropriate): 
+
+```cd PhysiCell-Studio-2.40.0```
+
+Then, run the download script: 
+
+```pip3 install -r requirements.txt```
+
+## Step 4) Open and Test PhysiCell Studio: 
+If successful, you should be able to open the studio via; 
+
+```python bin/studio.py```
+
+If this opens, go to the `Run` tab and click the green `Run Simulation` button. You should see it run with a lot of details in the built-in window. Move to the `Plot` window and click the green `Play` button to start visualizing the test model.
+
+If it starts moving through a simple simulation, you are good to go! 
+
+## Step 5) View documentation
+Visit: 
+
+[https://github.com/PhysiCell-Tools/Studio-Guide/blob/main/README.md](https://github.com/PhysiCell-Tools/Studio-Guide/blob/main/README.md) 
+
+
+
