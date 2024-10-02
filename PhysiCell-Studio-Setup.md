@@ -1,12 +1,12 @@
 # PhysiCell Studio Setup Guide 
 Last Updated Oct 2, 2024. 
 
-This guide will help you set up PhysiCell Studio  with a pre-compiled  executable model (`project`) for their computer (currently just Windows or Mac). 
+This guide will help you set up PhysiCell Studio  with a pre-compiled  executable model (`project`) for their computer (currently Windows, Mac, and (hopefully) Linux). 
 It will let you create rules-based simulation models without additional complex setup (e.g., C++ compilers). You need Python 3 installed on your computer (which will include the `pip3` command used below). Verify that you do and if not, install it. 
 
 If you have difficulty with this setup, you can use the web-based version of PhysiCell Studio, at: 
 
-[https://nanohub.com](https://nanohub.org/tools/pcstudio)
+[https://nanohub.org/tools/pcstudio](https://nanohub.org/tools/pcstudio) - if a first time user, you'll need to register (free)
 
 
 ## Step 1) Install Python (if you don't have it)
@@ -58,9 +58,13 @@ Then, change into the unzipped PhysiCell Studio directory (replace `PhysiCell-St
 
 ```cd PhysiCell-Studio-2.40.0```
 
-Then, run the download script: 
+Then, install required 3rd party Python modules for the Studio: 
 
 ```pip3 install -r requirements.txt```
+
+Then, run a script to download the executable `project` (the PhysiCell "template" sample project) for your operating system:
+
+```python downlaod_binary.py```
 
 ## Step 4) Open and Test PhysiCell Studio: 
 If successful, you should be able to open the studio via; 
@@ -76,5 +80,16 @@ Visit:
 
 [https://github.com/PhysiCell-Tools/Studio-Guide/blob/main/README.md](https://github.com/PhysiCell-Tools/Studio-Guide/blob/main/README.md) 
 
+## Step 6) Possible additional steps for Linux
+
+If you are on Linux and the Studio does not display, you can try to run:
+
+```sudo apt-get install libxcb-xinerama0```   # (assuming you have `sudo` privilege)
+
+or possibly:
+```
+conda env create -f environment.yml
+conda activate studio
+```
 
 
