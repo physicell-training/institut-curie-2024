@@ -1,16 +1,17 @@
 # PhysiCell Studio Setup Guide 
 Last Updated Oct 2, 2024. 
 
-This guide will help you set up PhysiCell Studio  with a pre-compiled  executable model (`project`) for their computer (currently Windows, Mac, and (hopefully) Linux). 
+This guide will help you set up PhysiCell Studio  with a pre-compiled  executable model (`project`) for your computer (currently Windows, Mac, and (hopefully) Linux). 
+
 It will let you create rules-based simulation models without additional complex setup (e.g., C++ compilers). You need Python 3 installed on your computer (which will include the `pip3` command used below). Verify that you do and if not, install it. 
 
 If you have difficulty with this setup, you can use the web-based version of PhysiCell Studio, at: 
 
-[https://nanohub.org/tools/pcstudio](https://nanohub.org/tools/pcstudio) - if a first time user, you'll need to register (free)
+[https://nanohub.org/tools/pcstudio](https://nanohub.org/tools/pcstudio) 
 
+If you're a first time user, you'll need to register (free). I suggest using the Google login. 
 
 ## Step 1) Install Python (if you don't have it)
-
 ### On Windows:
 Follow these steps or see the Anaconda option below.
 
@@ -35,7 +36,9 @@ If it comes back with "Python 3.xx.xx" then you should be good. You can type `qu
 
 ### Platform independent: install the Anaconda Python
 
-* [https://www.anaconda.com/download](https://www.anaconda.com/download) (note there's a "Skip registration" option) - this option will figure out what operating system you are running and download the appropriate Python package. It will be somewhat large, but will contain most of the dependencies for the Studio.
+* [https://www.anaconda.com/download](https://www.anaconda.com/download)
+
+Note there's a "Skip registration" option) - this option will figure out what operating system you are running and download the appropriate Python package. It will be somewhat large, but will contain most of the dependencies for the Studio.
 
 ---
 ## Step 2) Download and Unzip PhysiCell Studio 
