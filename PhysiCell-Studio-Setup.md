@@ -16,9 +16,9 @@ Follow these steps or see the Anaconda option below.
 
 * open a Command Line or Powershell terminal and type:
 
-```python```
+```python --version```
 
-If it comes back with "Python 3.xx.xx" then you should be good. You can type `quit()` at the Python prompt (">>>") to exit the interpreter.
+If it comes back with "Python 3.xx.xx" then you should be good.
  
 * Otherwise, if it says `command not found`, then download and install Python 3.11 from the [Microsoft Store](https://apps.microsoft.com/search?query=python&hl=en-us&gl=US).
 
