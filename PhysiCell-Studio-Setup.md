@@ -29,7 +29,7 @@ Follow these steps or see the Anaconda option (next).
 
 ```python --version```
 
-If it comes back with "Python 3.xx.xx" then you should be good. You can type `quit()` at the Python prompt (">>>") to exit the interpreter.
+If it comes back with "Python 3.xx.xx" then you should be good.
 
 * Otherwise, if it says `command not found`, then download and install the latest "macOS 64-bit universal2 installer" from [www.python.org/downloads/macos/](https://www.python.org/downloads/macos/).
 
