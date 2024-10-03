@@ -4,6 +4,9 @@
 These are lecture and supplementary materials for the PhysiCell talk during the [Computational Systems Biology of Cancer International Course 7th edition - Spatial multimodal data analysis: when omics meet images](https://training.institut-curie.org/courses/sysbiocancer2024). 
 
 ## Lecture Slides
+Introductory slides on agent-based modeling, our new modeling grammar, and key examples can be found here: 
+
+* [Lecture: New Advances in intuitive agent-based modeling with PhysiCell](https://github.com/physicell-training/institut-curie-2024/blob/main/files/Macklin%20-%20Institute%20Curie%20-%20October%202%2C%202024%20(v3).pdf)
 
 ## Mini PhysiCell Tutorial 
 This is a miniature, 2-hour tutorial series on building your first tumor-immune model with PhysiCell Studio, without any need to install a C++ compiler or write any code. 
