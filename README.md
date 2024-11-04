@@ -40,4 +40,4 @@ PhysiMeSS, PhysiBoSS, PhysiCool, others?
 10. [Ozik et al. (2018). High-throughput model exploration on HPC](https://doi.org/10.1186/s12859-018-2510-x). 
 
 ### PhysiCell Tutorials 
-1. [Ruscone et al. (2024). PhysiBoSS modeling in PhysiCell Studio[(https://doi.org/10.48550/arXiv.2406.18371)
+1. [Ruscone et al. (2024). PhysiBoSS modeling in PhysiCell Studio](https://doi.org/10.48550/arXiv.2406.18371)
